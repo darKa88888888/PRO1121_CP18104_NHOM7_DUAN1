@@ -30,11 +30,10 @@ import vinhnqph29776.nhom_7_PRO1121_CP18104_Duan1.ui.sanpham.Frag_quan.Frag_quan
 import vinhnqph29776.nhom_7_PRO1121_CP18104_Duan1.ui.sanpham.rcv.cate_ADT;
 import vinhnqph29776.nhom_7_PRO1121_CP18104_Duan1.ui.sanpham.rcv.category;
 
-public class Fragment_sanpham extends Fragment implements OnItemCLickListener{
+public class Fragment_sanpham extends Fragment {
     FragmentManager fm;
     ImageView img_shop;
     private FragmentSanphamBinding binding;
-    RecyclerView recyclerView;
     cate_ADT adt;
     ArrayList<category> list;
 
@@ -122,8 +121,5 @@ public class Fragment_sanpham extends Fragment implements OnItemCLickListener{
         return categoryList;
     }
 
-    @Override
-    public void OnItemCLickListener(category category) {
 
-    }
 }
